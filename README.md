@@ -23,17 +23,17 @@ This repository contains a comprehensive implementation and analysis of the **It
 ### 1. Memory Usage Comparison: IDA* vs A*
 
 ![Memory Usage Comparison](images/memory_comparison.png)
-_IDA_ demonstrates significantly lower memory consumption due to its depth-first search nature, storing only the current path rather than all visited nodes.\*
+<br/>_IDA_ demonstrates significantly lower memory consumption due to its depth-first search nature, storing only the current path rather than all visited nodes.\*
 
 ### 2. Execution Time vs Node Expansions
 
 ![Execution Analysis](images/execution_time_vs_expansions.png)
-_This visualization shows the trade-off between computation time and search efficiency across different problem complexities._
+<br/>_This visualization shows the trade-off between computation time and search efficiency across different problem complexities._
 
 ### 3. Threshold Iterations Across Test Cases
 
 ![Threshold Analysis](images/threshold_iterations.png)
-_Illustrates how IDA_ progressively increases cost bounds across different maze configurations until a solution is found.\*
+<br/>_Illustrates how IDA_ progressively increases cost bounds across different maze configurations until a solution is found.\*
 
 ## 🏗️ Algorithm Details
 
@@ -45,3 +45,15 @@ _Illustrates how IDA_ progressively increases cost bounds across different maze 
 3. If goal not found, increase threshold to min exceeded f-cost
 4. Repeat until solution found or proven impossible
 ```
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+
+### Installation Steps
+
+#### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/IDA-star-analysis.git
+cd IDA-star-analysis
