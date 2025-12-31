@@ -45,15 +45,16 @@ This repository contains a comprehensive implementation and analysis of the **It
 3. If goal not found, increase threshold to min exceeded f-cost
 4. Repeat until solution found or proven impossible
 ```
-## 🚀 Installation
+## 👥 Course & Group Information
 
-### Prerequisites
-- Python 3.8 or higher
-- pip (Python package manager)
+**Course:** CoSc4011 – Introduction to Artificial Intelligence  
+**Project:** IDA* Pathfinding Algorithm – Implementation & Analysis
 
-### Installation Steps
+### Group Members
 
-#### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/IDA-star-analysis.git
-cd IDA-star-analysis
+| No. | Student Name        | ID Number     |
+|----:|---------------------|---------------|
+| 1   | Yordanos Zewge      | UGR/5072/15   |
+| 2   | Samuel Ayine        | UGR/6563/13   |
+| 3   | Iyasu Walelign      | UGR/6553/15   |
+| 4   | Halid Zeyne         | UGR/0755/15   |
